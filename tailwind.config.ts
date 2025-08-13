@@ -19,7 +19,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				poppins: ['Poppins', 'sans-serif'],
+				inter: ['Inter', 'sans-serif'],
+				'space-grotesk': ['Space Grotesk', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -28,12 +29,20 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				
-				// Bee Theme Colors
+				// Professional Brand Colors
 				'primary-light': 'hsl(var(--primary-light))',
-				'primary-glow': 'hsl(var(--primary-glow))',
-				charcoal: 'hsl(var(--charcoal))',
-				'deep-black': 'hsl(var(--deep-black))',
-				'light-grey': 'hsl(var(--light-grey))',
+				'primary-dark': 'hsl(var(--primary-dark))',
+				
+				// Status Colors
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
+				
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -99,6 +108,15 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			spacing: {
+				'18': '4.5rem',
+				'88': '22rem',
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-premium': 'var(--gradient-premium)',
 			}
 		}
 	},
