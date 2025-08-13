@@ -18,12 +18,22 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				poppins: ['Poppins', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				
+				// Bee Theme Colors
+				'primary-light': 'hsl(var(--primary-light))',
+				'primary-glow': 'hsl(var(--primary-glow))',
+				charcoal: 'hsl(var(--charcoal))',
+				'deep-black': 'hsl(var(--deep-black))',
+				'light-grey': 'hsl(var(--light-grey))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
