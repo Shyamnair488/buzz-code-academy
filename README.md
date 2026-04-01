@@ -1,73 +1,99 @@
-# Welcome to your Lovable project
+# Buzz Code Academy
 
-## Project info
+Modern coding academy landing page built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/85b12cb4-ddac-41e7-89cc-e47fae5ce3f5
+Maintained by SN Group.
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+Buzz Code Academy is a responsive frontend project designed to showcase online programming courses, pricing plans, testimonials, and premium offerings in a clean and conversion-focused layout.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/85b12cb4-ddac-41e7-89cc-e47fae5ce3f5) and start prompting.
+- Responsive design for mobile, tablet, and desktop
+- Reusable UI components powered by shadcn/ui
+- Structured page sections (hero, course grid, pricing, testimonials, footer)
+- Fast development workflow with Vite
+- Type-safe codebase with TypeScript
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech Stack
 
-**Use your preferred IDE**
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- React Router
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js 18+
+- npm 9+
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+git clone https://github.com/Shyamnair488/buzz-code-academy.git
+cd buzz-code-academy
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Run Development Server
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will run locally on the port shown in your terminal (default Vite port is 5173 unless configured otherwise).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start local development server
+- `npm run build` - Create production build
+- `npm run build:dev` - Build using development mode
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint checks
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```text
+src/
+	components/       Reusable page and UI components
+	hooks/            Custom React hooks
+	lib/              Utility helpers
+	pages/            Route-level page components
+	assets/           Static assets used by the app
+```
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+You can deploy this app to any static hosting provider.
 
-## How can I deploy this project?
+Recommended options:
 
-Simply open [Lovable](https://lovable.dev/projects/85b12cb4-ddac-41e7-89cc-e47fae5ce3f5) and click on Share -> Publish.
+- Vercel
+- Netlify
+- GitHub Pages
+- Cloudflare Pages
 
-## Can I connect a custom domain to my Lovable project?
+Build command:
 
-Yes, you can!
+```bash
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Publish the generated `dist/` directory.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Run lint and build checks
+5. Open a pull request
+
+## License
+
+This project is provided for educational and portfolio use. Add a formal license file if you plan to distribute it publicly.
